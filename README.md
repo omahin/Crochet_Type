@@ -1,7 +1,7 @@
 
-# Crochet - Gerenciador de Linhas para Crochê
+# Crochet - Gerenciador de Linhas para Crochê 🧶🪡
 
-Este projeto é uma API construída com TypeScript e arquitetura Clean Architecture para gerenciar informações sobre linhas de crochê. O projeto oferece funcionalidades CRUD (Create, Read, Update, Delete) para manipular dados de linhas, como fio, composição, comprimento, peso, tamanho de agulhas e muito mais.
+Este projeto é uma API construída com TypeScript e arquitetura Clean Architecture para gerenciar informações sobre linhas de crochê. O projeto oferece funcionalidades CRUD (Create, Read, Update, Delete) para manipular dados sobre linhas, como: tipo de fio, composição, comprimento, peso, tamanho de agulhas necessário para cada linha e muito mais.
 
 ## Funcionalidades
 
@@ -62,7 +62,7 @@ crochetype/
 └── README.md
 ```
 
-## Como Rodar o Projeto
+## Como Rodar o Projeto ⚙️
 
 ### Clonar o repositório:
 
@@ -129,6 +129,6 @@ O servidor será iniciado na porta 3333.
 - **Clean Architecture**
 - **ts-node-dev**
 
-## Contribuições
+## Contribuições 💡
 
 Sinta-se à vontade para contribuir com o projeto, seja reportando problemas, sugerindo melhorias ou enviando pull requests.
