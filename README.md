@@ -85,7 +85,7 @@ npm start
 
 O servidor será iniciado na porta 3333.
 
-## Rotas Disponíveis e testes no Postman
+## Rotas Disponíveis e Testes no Postman
 
 - `POST /crochets`: Cria uma nova linha de crochê.
   
