@@ -1,10 +1,10 @@
 import { CrochetRepository } from "../repositories/crochet-repository";
+import { Crochet } from "../../domain/crochet";
 
 export class ListAllCrochetsUseCase {
   constructor(private crochetRepository: CrochetRepository) {}
 
-  execute() {
-    const crochets = this.crochetRepository.findAll();
-    return crochets;
+ async execute(): Promise<Array<Crochet>> {
+    return await this.crochetRepository.findAll();
   }
 }

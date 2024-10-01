@@ -1,7 +1,9 @@
 import express from 'express';
 import { configureDependencies } from '../infrastructure/utils/config';
+import { connectDB } from '../infrastructure/database/mongo-db/connection';
 
 export const app = express();
+connectDB();
 app.use(express.json());
 
 // Instancia dependências e rotas
