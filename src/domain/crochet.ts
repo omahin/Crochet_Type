@@ -1,7 +1,8 @@
 export interface Crochet {
   id: string;
   created_at: string;
-  fio: string;
+  descricao: string;
+  nome_fio: string;
   tex: number;
   composicao: string;
   comprimento: string;
