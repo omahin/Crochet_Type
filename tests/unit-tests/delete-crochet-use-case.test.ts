@@ -1,5 +1,5 @@
-import { DeleteCrochetUseCase } from '../delete-crochet-use-case';
-import { CrochetRepository } from '../../repositories/crochet-repository';
+import { DeleteCrochetUseCase } from '../../src/application/use-cases/delete-crochet-use-case';
+import { CrochetRepository } from '../../src/application/repositories/crochet-repository';
 
 describe('DeleteCrochetUseCase', () => {
   let deleteCrochetUseCase: DeleteCrochetUseCase;

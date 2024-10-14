@@ -1,6 +1,6 @@
-import { ListAllCrochetsUseCase } from '../list-all-crochets-use-case';
-import { CrochetRepository } from '../../repositories/crochet-repository';
-import { Crochet } from '../../../domain/crochet';
+import { ListAllCrochetsUseCase } from '../../src/application/use-cases/list-all-crochets-use-case';
+import { CrochetRepository } from '../../src/application/repositories/crochet-repository';
+import { Crochet } from '../../src/domain/crochet';
 
 describe('ListAllCrochetsUseCase', () => {
   let listAllCrochetsUseCase: ListAllCrochetsUseCase;
